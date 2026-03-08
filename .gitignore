@@ -56,7 +56,9 @@ src/
 
 # Optional: large or generated artifacts (uncomment if you don’t want them on GitHub)
 models/
-data/
+data/*
+!data/raw/
+!data/raw/*.csv
 references/
 src/
 scripts/
